@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/" "~/workspace/notebook/" "~/workspace/code/c/linux-2.6/" "~/workspace/code/c/tinyhttpd-0.1.0/" "~/workspace/code/c++/")
