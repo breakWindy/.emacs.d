@@ -1,0 +1,93 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("stdio.h" include (:system-flag t) nil [21 39])
+            ("ListNode" type
+               (:members 
+                  ( ("val" variable (:type "int") (reparse-symbol classsubparts) [212 220])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("ListNode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [224 246]))                  
+                :type "struct")
+                nil [184 260])
+            ("ListNode" type
+               (:typedef ("ListNode" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [184 260])
+            ("listSum" function
+               (:arguments 
+                  ( ("head" variable
+                       (:pointer 1
+                        :type ("ListNode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [352 374]))                  
+                :type "int")
+                nil [340 684])
+            ("createListBySplitNumbers" function
+               (:pointer 1
+                :arguments 
+                  ( ("sum" variable (:type "int") (reparse-symbol arg-sub-list) [729 737]))                  
+                :type ("listNode" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [687 1104])
+            ("addTwoNumbers" function
+               (:pointer 1
+                :arguments 
+                  ( ("l1" variable
+                       (:pointer 1
+                        :type ("ListNode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1137 1157])
+                    ("l2" variable
+                       (:pointer 1
+                        :type ("ListNode" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1158 1178]))                  
+                :type ("ListNode" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1106 1581])
+            ("createListByArray" function
+               (:pointer 1
+                :arguments 
+                  ( ("numbers" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1650 1663]))                  
+                :type ("ListNode" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1615 2062])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2073 2078]))                  
+                :type "int")
+                nil [2064 2574]))          
+      :file "addTwoNumbers.c"
+      :pointmax 2574
+      :fsize 2575
+      :lastmodtime '(24527 18807 827747 624000)
+      :unmatched-syntax nil))
+  :file "!Users!luowen!workspace!code!multi_language!leetcode!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

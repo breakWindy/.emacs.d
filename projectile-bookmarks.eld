@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/" "~/workspace/notebook/" "~/workspace/code/c/linux-2.6/" "~/workspace/code/c/tinyhttpd-0.1.0/" "~/workspace/code/c++/")
+("~/org/" "~/" "~/.emacs.d/" "~/workspace/code/python/shadowsocks-py-2.9.1/" "~/workspace/projects/HomeTeacherPlatform/" "~/workspace/notebook/" "~/workspace/code/c/linux-2.6/" "~/workspace/code/c/tinyhttpd-0.1.0/" "~/workspace/code/c++/")
